@@ -1,7 +1,13 @@
+export interface HttpResponse {
+    data: any;
+    message?: string;
+    status: number;
+}
+
 export interface ErrorResponse {
     code?: string;
     data?: any;
-    additional_errors?: Array<AdditionalError>;
+    additional_errors?: AdditionalError[];
     message: string;
 }
 
