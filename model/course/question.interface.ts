@@ -10,7 +10,7 @@ interface QuestionFields {
     choice_2:any;
     choice_3?:any;
     choice_4?:any;
-    correct_answer:Array<string>;
+    correct_answer:string[];
     que_complexity:Complexity;
     que_point:number;
 }

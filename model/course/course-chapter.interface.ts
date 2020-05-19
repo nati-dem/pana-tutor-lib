@@ -7,8 +7,8 @@ export interface CourseChapter extends BaseCPTModel {
 }
 
 interface ChapterFields {
-  lessons: Array<AcfPostModel>;
+  lessons: AcfPostModel[];
   pass_quiz_to_complete_section: YesNoChoice;
   quiz_number_of_attempts_allowed: number;
-  chapter_quiz: Array<number>;
+  chapter_quiz: number[];
 }

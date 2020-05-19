@@ -6,7 +6,7 @@ export interface Quiz extends BaseCPTModel {
 }
 
 interface QuizFields {
-    quiz_questions: Array<AcfPostModel>;
+    quiz_questions: AcfPostModel[];
     time_limit:number;
     quiz_num_attempts:number;
     quiz_reward_point:number;
