@@ -8,7 +8,7 @@ export interface BaseCPTModel {
     content:Rendered;
     featured_media?:number; // /wp-json/wp/v2/media/{featured_media}
     comment_status?:string;
-    tags?: Array<Number>;
+    tags?: number[];
     author:number;
 }
 

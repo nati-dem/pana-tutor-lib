@@ -8,11 +8,11 @@ export interface Course extends BaseCPTModel {
 }
 
 interface CourseFields {
-  course_categories: Array<Number>;
-  course_sections: Array<Number>;
+  course_categories: number[];
+  course_sections: number[];
   price: string;
   course_instructor: string;
-  course_prerequisites: Array<Number>;
+  course_prerequisites: number[];
   course_complexity:Complexity;
   bonus_reward_point: number;
 }
