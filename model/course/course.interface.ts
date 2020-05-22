@@ -2,8 +2,8 @@ import {BaseCPTModel} from "../cpt-model.interface"
 import {Complexity} from "../../enum/common.enum"
 
 export interface Course extends BaseCPTModel {
-    category: number;
-    name: string;
+    category?: number;
+    name?: string;
     acf: CourseFields;
 }
 
