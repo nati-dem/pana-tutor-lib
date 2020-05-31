@@ -17,6 +17,6 @@ export enum ErrorCode {
 }
 
 export enum ErrorMessage {
-    INVALID_PARAM= "Invalid user parameter(s)",
+    INVALID_PARAM= "Invalid parameter(s)",
     UNAUTHORIZED= "UNAUTHORIZED",
 }
