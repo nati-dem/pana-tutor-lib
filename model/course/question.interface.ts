@@ -13,4 +13,5 @@ interface QuestionFields {
   correct_answer: string[];
   que_complexity: Complexity;
   que_point: number;
+  quiz_ids:number[];
 }
