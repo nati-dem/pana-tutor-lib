@@ -1,6 +1,7 @@
 export enum ErrorCode {
   LOGIN_ERROR = "LOGIN_ERROR",
   INVALID_PARAM = "INVALID_PARAM",
+  INVALID_PARAM_SEARCH = "INVALID_PARAM_SEARCH",
   REGISTER_ERROR = "SIGNUP_ERROR",
   PROFILE_ERROR = "PROFILE_GET_ERROR",
   CATEGORY_GET_ERROR = "CATEGORY_GET_ERROR",
@@ -12,6 +13,7 @@ export enum ErrorCode {
   QUIZ_QUE_FIND_ERROR = "QUIZ_QUE_FIND_ERROR",
   QUE_GET_ERROR = "QUE_GET_ERROR",
   MEDIA_GET_ERROR = "MEDIA_GET_ERROR",
+  SEARCH_ERROR = "SEARCH_ERROR",
   PROFILE_UPDATE_ERROR = "PROFILE_UPDATE_ERROR",
   INVALID_AUTH = "INVALID_AUTH",
   APP_TOKEN_ERROR = "SERVICE_TOKEN_ERROR",
@@ -22,4 +24,13 @@ export enum ErrorCode {
 export enum ErrorMessage {
   INVALID_PARAM = "Invalid parameter(s)",
   UNAUTHORIZED = "UNAUTHORIZED",
+}
+
+export enum EntityType {
+  courses = "courses",
+  course_chapters = "course_chapters",
+  course_lessons = "course_lessons",
+  quiz = "quiz",
+  users = "users",
+  question_box = "question_box"
 }
