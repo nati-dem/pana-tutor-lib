@@ -1,6 +1,7 @@
 export enum ErrorCode {
   LOGIN_ERROR = "LOGIN_ERROR",
   INVALID_PARAM = "INVALID_PARAM",
+  FORBIDDEN_ACCESS = "FORBIDDEN_ACCESS",
   INVALID_PARAM_SEARCH = "INVALID_PARAM_SEARCH",
   REGISTER_ERROR = "SIGNUP_ERROR",
   PROFILE_ERROR = "PROFILE_GET_ERROR",
@@ -24,6 +25,7 @@ export enum ErrorCode {
 export enum ErrorMessage {
   INVALID_PARAM = "Invalid parameter(s)",
   UNAUTHORIZED = "UNAUTHORIZED",
+  FORBIDDEN = "FORBIDDEN"
 }
 
 export enum EntityType {
