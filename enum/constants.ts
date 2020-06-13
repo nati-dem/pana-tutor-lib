@@ -1,6 +1,7 @@
 export enum ErrorCode {
   LOGIN_ERROR = "LOGIN_ERROR",
   INVALID_PARAM = "INVALID_PARAM",
+  QUIZ_ANS_ENTRY_ERROR = "QUIZ_ANS_ENTRY_ERROR",
   FORBIDDEN_ACCESS = "FORBIDDEN_ACCESS",
   INVALID_PARAM_SEARCH = "INVALID_PARAM_SEARCH",
   REGISTER_ERROR = "SIGNUP_ERROR",
@@ -25,7 +26,9 @@ export enum ErrorCode {
 export enum ErrorMessage {
   INVALID_PARAM = "Invalid parameter(s)",
   UNAUTHORIZED = "UNAUTHORIZED",
-  FORBIDDEN = "FORBIDDEN"
+  DB_ERROR = "DB_ERROR",
+  FORBIDDEN = "FORBIDDEN",
+  DUPLICATE_ENTRY = "Entry Already Exists in DB"
 }
 
 export enum EntityType {

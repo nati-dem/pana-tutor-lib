@@ -8,3 +8,8 @@ export enum Complexity {
     standard="standard",
     hard="hard"
 }
+
+export enum QuizStatus {
+    open="open",
+    submitted="submitted"
+}
