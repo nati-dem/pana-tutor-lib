@@ -1,6 +1,6 @@
 export enum YesNoChoice {
-    no="no",
-    yes="yes"
+    no="0",
+    yes="1"
 }
 
 export enum Complexity {
