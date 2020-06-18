@@ -29,6 +29,10 @@ export enum ErrorMessage {
   INVALID_PARAM = "Invalid parameter(s)",
   UNAUTHORIZED = "UNAUTHORIZED",
   DB_ERROR = "DB Operation Error",
+  DB_UPDATE_ERROR = "DB Update Operation Error",
+  DB_INSERT_ERROR = "DB Insert Operation Error",
+  DB_FIND_ERROR = "DB Find Operation Error",
+  DB_DELETE_ERROR = "DB Delete Operation Error",
   FORBIDDEN = "FORBIDDEN",
   DUPLICATE_ENTRY = "Entry Already Exists in DB"
 }
