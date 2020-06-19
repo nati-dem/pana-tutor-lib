@@ -2,6 +2,7 @@ import {RequestStatus} from "../../enum/tutor.enum"
 import {YesNoChoice} from "../../enum/common.enum"
 
 export interface TutorRequest {
+    id?: number,
     student_id: number,
     course: string,
     tutor_ids?: string,

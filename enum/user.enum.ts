@@ -6,3 +6,10 @@ export enum UserRole {
     SUBSCRIBER = 'subscriber', // student
     POTENTIAL_INSTRUCTOR = 'potential_instructor' // pending instructor signup
 }
+
+export enum TutorGroupRole {
+    admin = 'admin',
+    instructor = 'instructor',
+    moderator = 'moderator',
+    subscriber = 'subscriber'
+}
