@@ -5,6 +5,6 @@ export interface QuizAnsEntry {
   quiz_init_id: number;
   marked_for_review: YesNoChoice;
   answer: string;
-  instructor_feedback: string;
-  is_correct: YesNoChoice;
+  instructor_feedback?: string;
+  is_correct?: YesNoChoice;
 }
