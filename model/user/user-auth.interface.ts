@@ -4,6 +4,7 @@ export interface UserLoginRequest {
 }
 
 export interface UserSignupRequest {
+    id?:number;
     username?: string;
     name: string; // Display name for the user.
     first_name?: string;
@@ -16,5 +17,9 @@ export interface UserSignupRequest {
     // slug: string;
     password: string;
     roles: string[];
-    meta?: any;
+    meta?: UserMeta;
+}
+
+export interface UserMeta {
+    phone_number: string;
 }

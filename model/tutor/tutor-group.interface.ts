@@ -30,7 +30,10 @@ export interface TutorGroupCreate {
 export interface GroupMember {
     user_id: number,
     user_role: TutorGroupRole,
-    status:GroupMemberStatus
+    status:GroupMemberStatus,
+    user_name? : string,
+    email?: string,
+    phone?: string
 }
 
 export interface TutorGroupCreate {
