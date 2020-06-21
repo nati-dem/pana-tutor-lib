@@ -18,3 +18,33 @@ export interface GroupMemberRequest {
     user_role: TutorGroupRole,
     status?: GroupMemberStatus
 }
+
+export interface TutorGroupCreate {
+    id?: number,
+    course_id: number,
+    start_date:string, // format: 2020-04-17
+    owner:GroupMember,
+    status:GroupStatus
+}
+
+export interface GroupMember {
+    user_id: number,
+    user_role: TutorGroupRole,
+    status:GroupMemberStatus
+}
+
+export interface TutorGroupCreate {
+    id?: number,
+    course_id: number,
+    start_date:string, // format: 2020-04-17
+    owner:GroupMember,
+    status:GroupStatus
+}
+
+export interface GroupsInCourseResponse {
+    groupId: number,
+    course_id: number,
+    start_date:string, // format: 2020-04-17
+    groupStatus:GroupStatus,
+    members:GroupMember[],
+}
