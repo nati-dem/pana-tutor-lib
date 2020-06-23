@@ -27,6 +27,7 @@ export enum ErrorCode {
 
 export enum ErrorMessage {
   INVALID_PARAM = "Invalid parameter(s)",
+  PROFILE_ERROR = "Error Fetching User Profile",
   UNAUTHORIZED = "UNAUTHORIZED",
   DB_ERROR = "DB Operation Error",
   DB_UPDATE_ERROR = "DB Update Operation Error",
