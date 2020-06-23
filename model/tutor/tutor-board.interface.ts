@@ -9,7 +9,7 @@ export interface BoardPostCreateRequest {
     due_date?: string, // format: 2020-04-17
     created_by?: number,
     status:BoardPostStatus,
-    user_id?:number
+    group_ids: number[]
 }
 
 export enum BoardPostType {
