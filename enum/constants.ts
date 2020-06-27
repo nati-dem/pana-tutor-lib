@@ -8,6 +8,7 @@ export enum ErrorCode {
   INVALID_PARAM_SEARCH = "INVALID_PARAM_SEARCH",
   REGISTER_ERROR = "SIGNUP_ERROR",
   PROFILE_ERROR = "PROFILE_GET_ERROR",
+  GET_AUTH_INFO_ERROR = "GET_AUTH_INFO_ERROR",
   CATEGORY_GET_ERROR = "CATEGORY_GET_ERROR",
   COURSE_BY_CATEGORY_GET_ERROR = "COURSE_BY_CATEGORY_GET_ERROR",
   COURSE_GET_ERROR = "COURSE_GET_ERROR",
@@ -28,6 +29,7 @@ export enum ErrorCode {
 export enum ErrorMessage {
   INVALID_PARAM = "Invalid parameter(s)",
   PROFILE_ERROR = "Error Fetching User Profile",
+  GET_AUTH_INFO_ERROR = "Error Fetching User Auth Info",
   UNAUTHORIZED = "UNAUTHORIZED",
   DB_ERROR = "DB Operation Error",
   DB_UPDATE_ERROR = "DB Update Operation Error",
