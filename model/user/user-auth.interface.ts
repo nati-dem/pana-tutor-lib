@@ -1,3 +1,5 @@
+import {UserRole} from "../../enum/user.enum";
+
 export interface UserLoginRequest {
     username: string;
     password: string;
@@ -16,10 +18,26 @@ export interface UserSignupRequest {
     nickname?: string;
     // slug: string;
     password: string;
-    roles: string[];
+    roles: UserRole[];
     meta?: UserMeta;
+    phone?:string;
+    address?:string;
+    country?:string;
+    bio?:string;
+    time_zone?:string;
 }
 
 export interface UserMeta {
     phone_number: string;
 }
+
+  /*
+  {
+	"first_name": "student2",
+	"password": "student2",
+	"roles": ["subscriber"],
+	"meta": {
+        "phone_number": "11223344"
+    }
+  }
+  */
