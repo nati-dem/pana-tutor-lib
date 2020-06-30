@@ -31,6 +31,12 @@ export interface UserMeta {
     phone_number: string;
 }
 
+export interface ChangePasswordRequest {
+    email: string;
+    password: string;
+    new_password: string;
+}
+
   /*
   {
 	"first_name": "student2",

@@ -1,5 +1,6 @@
 export enum ErrorCode {
   LOGIN_ERROR = "LOGIN_ERROR",
+  WRONG_PASSWORD = "WRONG_PASSWORD",
   INVALID_PARAM = "INVALID_PARAM",
   QUIZ_ANS_ENTRY_ERROR = "QUIZ_ANS_ENTRY_ERROR",
   SUMBIT_TUTOR_REQUEST="SUMBIT_TUTOR_REQUEST",
@@ -20,6 +21,7 @@ export enum ErrorCode {
   MEDIA_GET_ERROR = "MEDIA_GET_ERROR",
   SEARCH_ERROR = "SEARCH_ERROR",
   PROFILE_UPDATE_ERROR = "PROFILE_UPDATE_ERROR",
+  PASSWORD_CHANGE_ERROR = "PASSWORD_CHANGE_ERROR",
   INVALID_AUTH = "INVALID_AUTH",
   APP_TOKEN_ERROR = "SERVICE_TOKEN_ERROR",
   INVALID_TOKEN = "INVALID_TOKEN",
@@ -37,7 +39,8 @@ export enum ErrorMessage {
   DB_FIND_ERROR = "DB Find Operation Error",
   DB_DELETE_ERROR = "DB Delete Operation Error",
   FORBIDDEN = "FORBIDDEN",
-  DUPLICATE_ENTRY = "Entry Already Exists in DB"
+  DUPLICATE_ENTRY = "Entry Already Exists in DB",
+  WRONG_PASSWORD = "Current password entered is incorrect",
 }
 
 export enum EntityType {
