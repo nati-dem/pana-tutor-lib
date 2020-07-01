@@ -18,6 +18,7 @@ export interface UserSignupRequest {
     nickname?: string;
     // slug: string;
     password: string;
+    primary_role: UserRole;
     roles: UserRole[];
     meta?: UserMeta;
     phone?:string;
