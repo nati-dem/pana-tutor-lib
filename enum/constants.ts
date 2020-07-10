@@ -2,6 +2,8 @@ export enum ErrorCode {
   LOGIN_ERROR = "LOGIN_ERROR",
   WRONG_PASSWORD = "WRONG_PASSWORD",
   INVALID_PARAM = "INVALID_PARAM",
+  INVALID_FILE = "INVALID_FILE",
+  UNSUPPORTED_IMAGE="UNSUPPORTED_IMAGE",
   QUIZ_ANS_ENTRY_ERROR = "QUIZ_ANS_ENTRY_ERROR",
   SUMBIT_TUTOR_REQUEST="SUMBIT_TUTOR_REQUEST",
   QUIZ_SUBMIT_ERROR = "QUIZ_SUBMIT_ERROR",
@@ -30,6 +32,7 @@ export enum ErrorCode {
 
 export enum ErrorMessage {
   INVALID_PARAM = "Invalid parameter(s)",
+  INVALID_FILE = "Invalid File",
   PROFILE_ERROR = "Error Fetching User Profile",
   GET_AUTH_INFO_ERROR = "Error Fetching User Auth Info",
   UNAUTHORIZED = "UNAUTHORIZED",
@@ -41,6 +44,8 @@ export enum ErrorMessage {
   FORBIDDEN = "FORBIDDEN",
   DUPLICATE_ENTRY = "Entry Already Exists in DB",
   WRONG_PASSWORD = "Current password entered is incorrect",
+  UNSUPPORTED_IMAGE ="File format should be PNG,JPG,JPEG",
+  INVALID_AUTH_TOKEN = "Invalid Auth Token"
 }
 
 export enum EntityType {

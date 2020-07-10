@@ -26,6 +26,7 @@ export interface UserSignupRequest {
     country?:string;
     bio?:string;
     time_zone?:string;
+    avatar?:string;
 }
 
 export interface UserMeta {
