@@ -13,10 +13,10 @@ export interface TutorGroupRequest {
 export interface GroupMemberRequest {
     id?: number,
     course_id: number,
-    tutor_group_id: number,
+    tutor_group_id?: number,
     user_id: number,
     user_role: TutorGroupRole,
-    status?: GroupMemberStatus
+    status: GroupMemberStatus
 }
 
 export interface TutorGroupCreate {

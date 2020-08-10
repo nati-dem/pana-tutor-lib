@@ -44,6 +44,7 @@ export enum TutorBookingRequestStatus {
 }
 
 export interface YenePayVerifyRequest {
+    courseId:number;
     BuyerId;
     MerchantOrderId;
     MerchantCode;
