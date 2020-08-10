@@ -28,6 +28,8 @@ export enum ErrorCode {
   APP_TOKEN_ERROR = "SERVICE_TOKEN_ERROR",
   INVALID_TOKEN = "INVALID_TOKEN",
   ALREADY_EXIST = "ALREADY_EXIST",
+  OPERATION_DENIED = "Operation Denied",
+  YPAY_PDT_VERIFY_ERROR = "YPAY_PDT_VERIFY_ERROR",
 }
 
 export enum ErrorMessage {
@@ -45,7 +47,8 @@ export enum ErrorMessage {
   DUPLICATE_ENTRY = "Entry Already Exists in DB",
   WRONG_PASSWORD = "Current password entered is incorrect",
   UNSUPPORTED_IMAGE ="File format should be PNG,JPG,JPEG",
-  INVALID_AUTH_TOKEN = "Invalid Auth Token"
+  INVALID_AUTH_TOKEN = "Invalid Auth Token",
+  BOOKING_REQ_ERROR = "Unable to enroll in selected course. Payment process may be pending."
 }
 
 export enum EntityType {
